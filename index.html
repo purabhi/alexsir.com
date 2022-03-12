@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexsir-dive into coding</title>
     <link rel="stylesheet" href="index.css">
-     <!-- CSS -->
-     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-     <!-- FONT AWESOME -->
-     <script src="https://kit.fontawesome.com/c123228cd1.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/c123228cd1.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -41,6 +41,11 @@
     .carousel-cell a:hover .carousel-bt {
         background: red;
     }
+
+    .carousel-cell img,
+    .carousel-bt {
+        cursor: pointer;
+    }
 </style>
 
 <body>
@@ -50,11 +55,11 @@
         <div class="logo mt-5">
             <embed src="logo.svg" type="" style=" position: relative;
 width: 12em;
-top: -1em">  
+top: -1em">
         </div>
         <ul class="nav_list">
             <li>
-                <a >
+                <a>
                     <i class="fa-solid fa-house"></i>
                     <span class="link_name">Home</span>
                 </a>
@@ -66,7 +71,7 @@ top: -1em">
                 </a>
             </li>
             <li>
-                <a >
+                <a>
                     <i class="fa-solid fa-graduation-cap"></i>
                     <span class="link_name">Courses</span>
                 </a>
@@ -78,16 +83,16 @@ top: -1em">
                 </a>
             </li>
         </ul>
-        <div class="social-footer" style="margin-top: 7em; width:388px;">
+        <div class="social-footer" style="margin-top: 2em; width:388px;">
             <a class="share-footer-icon-fb">
                 <i class="fab fa-facebook-f"></i>
             </a>
 
-            <a  class="share-footer-icon-tweet">
+            <a class="share-footer-icon-tweet">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a  class="share-footer-icon-insta">
-                <i class="fa-brands fa-instagram"></i>
+            <a class="share-footer-icon-insta">
+                <i class="far fa-instagram"></i>
             </a>
         </div>
         <!-- <div class="social ms-3 me-3">
@@ -110,209 +115,212 @@ top: -1em">
     <!-- NAVBAR -->
     <div class="nave">
         <label for="" class="nave-head">
-<embed src="logo.svg" type="" style=" position: relative;
+            <embed src="logo.svg" type="" style=" position: relative;
 width: 12em;
-top: -2em">       
- </label>
+top: -2em">
+        </label>
 
-        
+
         <div class="sidenav_button lg-icon " style="float: right;">
             <!-- <i class="fa-solid fa-laptop"></i> -->
-            <img src="webicon.svg" style="width:5em;cursor:pointer;">
-            
+            <img src="webicon.svg" style="width:3.5em;cursor:pointer;">
         </div>
         <!-- <i class=" sidenav_button fa-solid fa-laptop iconlap"  id="icon_img"></i> -->
-        <img src="webicon.svg"  class="sidenav_button" id="icon_img">
+        <img src="webicon.svg" class="sidenav_button" id="icon_img">
         <!-- <img src="/icon(2).png" alt="" id="icon_img"> -->
-       
+
 
     </div>
     <!-- banner -->
 
     <div class="banner" style="margin-top:3em;overflow: hidden;">
-<img src="sirwebsite.jpg" style="width:100vw;" class="image1">
-<img src="sirwebsite1.jpg"  class="image">
+        <img src="sirwebsite.jpg" style="width:100vw;" class="image1">
+        <img src="sirwebsite1.jpg" class="image">
     </div>
- <!-- YOUTUBE -->
- <div class="part2_headdiv mt-5" style="width: 20%; ">
-    <h1  style="font-weight: 700; color: rgb(59, 135, 197);font-family: 'Monoton', cursive;position: relative; text-align: center;">@Youtube</h1>
-</div>
-<section id="part4" data-aos="fade-down" data-aos-duration="3000">
-    <div class="carousel"
-        data-flickity='{ "cellAlign": "center", "contain": true ,"pauseAutoPlayOnHover": true,"autoPlay": 2000,"wrapAround": true,"freeScroll": true,"freeScrollFriction": 0.03}'
-        style="margin-top: 5em;" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="100">
-        <div class="carousel-cell" style="padding: 0 22px;">
-            <a href="https://www.youtube.com/watch?v=t-hp3l0olEs&t=17s">
-                <div class="carousel-bt">
-                    <i class="fa fa-solid fa-play"></i>
-                </div>
-                <img src="/you1.webp" alt="" style="width: 560px;height: 315px;">
-            </a>
-        </div>
-        <div class="carousel-cell" style="padding: 0 22px;">
-            <a href="https://www.youtube.com/watch?v=PKateg3OUBg">
-                <div class="carousel-bt">
-                    <i class="fa fa-solid fa-play"></i>
-                </div> <img src="/you2.webp" alt="" style="width: 560px;height: 315px;">
-
-            </a>
-        </div>
-        <div class="carousel-cell" style="padding: 0 22px;">
-            <a href="https://www.youtube.com/watch?v=3gs7i1jnSXM&t=5s">
-
-                <div class="carousel-bt">
-                    <i class="fa fa-solid fa-play"></i>
-                </div>
-                <img src="/you3.webp" alt="" style="width: 560px;height: 315px;">
-            </a>
-        </div>
-        <div class="carousel-cell" style="padding: 0 22px;">
-            <a href="https://www.youtube.com/watch?v=eD-vdwPNfks">
-                <div class="carousel-bt">
-                    <i class="fa fa-solid fa-play"></i>
-                </div>
-                <img src="/you4.webp" alt="" style="width: 560px;height: 315px;">
-            </a>
-        </div>
-        <div class="carousel-cell" style="padding: 0 22px;">
-            <a href="https://www.youtube.com/watch?v=MNRsSZ7Gip8">
-
-                <div class="carousel-bt">
-                    <i class="fa fa-solid fa-play"></i>
-                </div>
-                <img src="/you5.webp" alt="" style="width: 560px;height: 315px;">
-            </a>
-        </div>
-        <div class="carousel-cell" style="padding: 0 22px;">
-            <a href="https://www.youtube.com/watch?v=heqF1THcASA">
-
-                <div class="carousel-bt">
-                    <i class="fa fa-solid fa-play"></i>
-                </div>
-                <img src="/you6.webp" alt="" style="width: 560px;height: 315px;">
-
-            </a>
-        </div>
+    <!-- YOUTUBE -->
+    <div class="part2_headdiv mt-5" style="width: 20%; ">
+        <h1
+            style="font-weight: 700; color: rgb(59, 135, 197);font-family: 'Monoton', cursive;position: relative; text-align: center;">
+            @Youtube</h1>
     </div>
-</section>
-<div class="part2_headdiv " style="width: 20%;margin-top:6em; ">
-    <h1  style="font-weight: 700; color: rgb(59, 135, 197);font-family: 'Monoton', cursive;position: relative; text-align: center;">Testimonal</h1>
-</div>
-<section class="testim" id="testim">
-    <div class="wrap">
-
-        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
-        <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
-
-        <ul class="dots" id="testim-dots">
-            <li class="dot active"></li>
-            <li class="dot"></li>
-            <li class="dot"></li>
-            <li class="dot"></li>
-            <li class="dot"></li>
-        </ul>
-
-        <div class="cont" id="testim-content">
-
-            <div class="active font" style=" font-family: 'Montserrat Alternates', sans-serif;">
-                <div class="img"><img src="p1.jpg"></div>
-                <h2>Lorem N. Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
-                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+    <section id="part4" data-aos="fade-down" data-aos-duration="3000">
+        <div class="carousel"
+            data-flickity='{ "cellAlign": "center", "contain": true ,"pauseAutoPlayOnHover": true,"autoPlay": 2000,"wrapAround": true,"freeScroll": true,"freeScrollFriction": 0.03}'
+            style="margin-top: 5em;" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="100">
+            <div class="carousel-cell" style="padding: 0 22px;">
+                <a href="https://www.youtube.com/watch?v=DDwkl-KJTtg">
+                    <div class="carousel-bt">
+                        <i class="fa fa-solid fa-play"></i>
+                    </div>
+                    <img src="you1.webp" alt="" style="width: 560px;height: 315px;">
+                </a>
             </div>
-            
-            <div style=" font-family: 'Montserrat Alternates', sans-serif;">
-                <div class="img"><img src="p2.jpg"></div>
-                <h2>Lorem L. Ipsum</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, voluptates.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
-                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+            <div class="carousel-cell" style="padding: 0 22px;">
+                <a href="https://www.youtube.com/watch?v=zfF9zXcBo2k">
+                    <div class="carousel-bt">
+                        <i class="fa fa-solid fa-play"></i>
+                    </div> <img src="you2.webp" alt="" style="width: 560px;height: 315px;">
+
+                </a>
             </div>
-            
-            <div style=" font-family: 'Montserrat Alternates', sans-serif;">
-                <div class="img"><img src="p3.jpg"></div>
-                <h2>Lorem R. Ipsum</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, omnis.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
-                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+            <div class="carousel-cell" style="padding: 0 22px;">
+                <a href="https://www.youtube.com/watch?v=3gs7i1jnSXM&t=5s">
+
+                    <div class="carousel-bt">
+                        <i class="fa fa-solid fa-play"></i>
+                    </div>
+                    <img src="you3.webp" alt="" style="width: 560px;height: 315px;">
+                </a>
             </div>
-            
-            <div style=" font-family: 'Montserrat Alternates', sans-serif;">
-                <div class="img"><img src="p4.jpg"></div>
-                <h2>Lorem P. Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, et.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
-                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+            <div class="carousel-cell" style="padding: 0 22px;">
+                <a href="https://www.youtube.com/watch?v=vZpN4k-eQgQ">
+                    <div class="carousel-bt">
+                        <i class="fa fa-solid fa-play"></i>
+                    </div>
+                    <img src="you4.webp" alt="" style="width: 560px;height: 315px;">
+                </a>
             </div>
-            
-            <div style=" font-family: 'Montserrat Alternates', sans-serif;">
-                <div class="img"><img src="p5.jpg"></div>
-                <h2>Lorem Q. Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsam!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
-                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+            <div class="carousel-cell" style="padding: 0 22px;">
+                <a href="https://www.youtube.com/watch?v=rhFSDeIaavs&t=5s">
+
+                    <div class="carousel-bt">
+                        <i class="fa fa-solid fa-play"></i>
+                    </div>
+                    <img src="you5.webp" alt="" style="width: 560px;height: 315px;">
+                </a>
+            </div>
+            <div class="carousel-cell" style="padding: 0 22px;">
+                <a href="https://www.youtube.com/watch?v=1SJDamvEDuE">
+
+                    <div class="carousel-bt">
+                        <i class="fa fa-solid fa-play"></i>
+                    </div>
+                    <img src="you6.webp" alt="" style="width: 560px;height: 315px;">
+
+                </a>
             </div>
         </div>
-
+    </section>
+    <div class="part2_headdiv " style="width: 20%;margin-top:6em; ">
+        <h1
+            style="font-weight: 700; color: rgb(59, 135, 197);font-family: 'Monoton', cursive;position: relative; text-align: center;">
+            Testimonal</h1>
     </div>
-</section>
-  <!-- FOOTER -->
-  <section id="part7">
-    <div class="row" style="justify-content: space-around;">
-        <div class="col-lg-5 services">
-            <h2 style="text-align: center;">REACH US</h2>
-            <iframe class="frame"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.425360007304!2d80.96099371421445!3d26.858223668901264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd30a72dfa5b%3A0x35c4b4954027142b!2sIQ%20CLASSES!5e0!3m2!1sen!2sin!4v1643434358193!5m2!1sen!2sin"
-                width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+    <section class="testim" id="testim">
+        <div class="wrap">
 
-        <div class="col-lg-4 services">
-            <h2>SERVICES</h2>
-            <ul>
-                <li style="font-family: 'Source Code Pro', monospace;">CODING</li>
-                <li style="font-family: 'Source Code Pro', monospace;">ON-LINE PREPARATION</li>
-                <li>JAVA & PYTHON</li>
+            <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+            <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+
+            <ul class="dots" id="testim-dots">
+                <li class="dot active"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
             </ul>
-        </div>
 
-        <div class="col-lg-3 visit">
-            <h2>CONTACT</h2>
-            <div class="sub-visit">
-                <address>
-                    B-54, Krishna Bhawan, Parag Narain Road,
-                    Near Butler Palace Colony Lucknow
-                </address>
+            <div class="cont" id="testim-content">
+
+                <div class="active font" style=" font-family: 'Montserrat Alternates', sans-serif;">
+                    <div class="img"><img src="p1.jpg"></div>
+                    <h2>Lorem N. Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, itaque.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                        deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                </div>
+
+                <div style=" font-family: 'Montserrat Alternates', sans-serif;">
+                    <div class="img"><img src="p2.jpg"></div>
+                    <h2>Lorem L. Ipsum</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, voluptates.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                        deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                </div>
+
+                <div style=" font-family: 'Montserrat Alternates', sans-serif;">
+                    <div class="img"><img src="p3.jpg"></div>
+                    <h2>Lorem R. Ipsum</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, omnis.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                        deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                </div>
+
+                <div style=" font-family: 'Montserrat Alternates', sans-serif;">
+                    <div class="img"><img src="p4.jpg"></div>
+                    <h2>Lorem P. Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, et.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                        deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                </div>
+
+                <div style=" font-family: 'Montserrat Alternates', sans-serif;">
+                    <div class="img"><img src="p5.jpg"></div>
+                    <h2>Lorem Q. Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                        deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                </div>
             </div>
-            <div class="sub-visit">
-                <address>
-                    Contact:+ 91790552 9739
-                </address>
-            </div>
-            <div class="sub-visit">
-                <address>Email:info@iqclasses.in</address>
-            </div>
 
-            
         </div>
+    </section>
+    <!-- FOOTER -->
+    <section id="part7">
+        <div class="row" style="justify-content: space-around;">
+            <div class="col-lg-5 services">
+                <h2 style="text-align: center;">REACH US</h2>
+                <iframe class="frame"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.425360007304!2d80.96099371421445!3d26.858223668901264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd30a72dfa5b%3A0x35c4b4954027142b!2sIQ%20CLASSES!5e0!3m2!1sen!2sin!4v1643434358193!5m2!1sen!2sin"
+                    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
 
-        <div class="social-footer" style="margin-top: 7em;">
-            <a  class="share-footer-icon-fb">
-                <i class="fab fa-facebook-f"></i>
-            </a>
+            <div class="col-lg-4 services">
+                <h2>SERVICES</h2>
+                <ul>
+                    <li style="font-family: 'Source Code Pro', monospace;">CODING</li>
+                    <li style="font-family: 'Source Code Pro', monospace;">ON-LINE PREPARATION</li>
+                    <li>JAVA & PYTHON</li>
+                </ul>
+            </div>
 
-            <a  class="share-footer-icon-tweet">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a class="share-footer-icon-insta">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-        </div>
-</section>
+            <div class="col-lg-3 visit">
+                <h2>CONTACT</h2>
+                <div class="sub-visit">
+                    <address>
+                        B-54, Krishna Bhawan, Parag Narain Road,
+                        Near Butler Palace Colony Lucknow
+                    </address>
+                </div>
+                <div class="sub-visit">
+                    <address>
+                        Contact:+ 91790552 9739
+                    </address>
+                </div>
+                <div class="sub-visit">
+                    <address>Email:info@iqclasses.in</address>
+                </div>
 
-<!-- FLICKITY JS CDN -->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+            </div>
+
+            <div class="social-footer" style="margin-top: 7em;">
+                <a class="share-footer-icon-fb">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a class="share-footer-icon-tweet">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="share-footer-icon-insta">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+    </section>
+
+    <!-- FLICKITY JS CDN -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="index.js"></script>
