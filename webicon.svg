@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #17a2b8;
+      }
+
+      .cls-2 {
+        font-size: 81.5px;
+        fill: #007b81;
+        text-anchor: middle;
+        font-family: "Source Sans Variable";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="118.438" y="96.844" width="261.093" height="50.031"/>
+  <rect id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-1" x="118.438" y="182.781" width="261.093" height="50.031"/>
+  <rect id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-1" x="119.531" y="269.812" width="264.344" height="50.032"/>
+  <text id="_" data-name="{" class="cls-2" transform="translate(56.944 295.225) scale(4.213)"><tspan x="0">{</tspan></text>
+  <text id="_copy" data-name="{ copy" class="cls-2" transform="translate(442.988 104.763) rotate(179.984) scale(4.213)"><tspan x="0">{</tspan></text>
+</svg>
