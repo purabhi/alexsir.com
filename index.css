@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat+Alternates:wght@300&family=Source+Code+Pro:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat+Alternates:wght@300&family=Source+Code+Pro:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat+Alternates:wght@300&family=Source+Code+Pro:wght@300;500&display=swap");
 *,
 *:after,
@@ -437,7 +437,7 @@ body {
     display: block;
 
     width: 100vw;
-    margin-top: 0em;
+    margin-top: 1em;
   }
   .banner .image1 {
     display: none;
@@ -461,7 +461,7 @@ body {
     width: 2em;
     /* height: 1em; */
     position: absolute;
-    top: 1.2em;
+    top: 0.2em;
     right: 1em;
     overflow: hidden;
     font-size: 2em;
@@ -694,7 +694,6 @@ body {
   padding: 0.5em;
 }
 
-
 .partgaller_headdiv {
   width: 54%;
   margin: auto;
@@ -715,12 +714,13 @@ body {
 }
 .share-footer-icon-fb {
   background-color: rgb(44, 113, 170);
-  font-size: 1em;
+  font-size: 1.1em;
   display: flex;
-  /* width: 65px;
-  min-height: 65px; */
+  /* width: 65px; */
+  height: 56px;
+  /* min-height: 65px; */
+  /* min-width: 65px; */
   min-width: 58px;
-  height:56px;
   justify-content: center;
   align-items: center;
   border: 1px solid rgb(29, 81, 124);
@@ -733,12 +733,13 @@ body {
 
 .share-footer-icon-tweet {
   background-color: rgb(29, 81, 124);
-  font-size: 1em;
+  font-size: 1.1em;
   display: flex;
-  /* width: 65px;
-  min-height: 65px; */
+  /* width: 65px; */
+  height: 56px;
+  /* min-height: 65px; */
+  /* min-width: 65px; */
   min-width: 58px;
-  height:56px;
   justify-content: center;
   align-items: center;
   border: 1px solid rgb(44, 113, 170);
@@ -750,12 +751,13 @@ body {
   cursor: pointer;
 }
 .share-footer-icon-insta {
-  font-size: 1em;
+  font-size: 1.1em;
   display: flex;
- /* width: 65px;
-  min-height: 65px; */
+  /* width: 65px; */
+  height: 56px;
+  /* min-height: 65px; */
+  /* min-width: 65px; */
   min-width: 58px;
-  height:56px;
   justify-content: center;
   align-items: center;
 
