@@ -1,11 +1,11 @@
 
+
 $('.sidenav_button img').click(()=>{
   $('.sidebar').css('width','400px')
    $('.dark-bg').css('display','block')
 })
 
-$('.sidebar .fa-xmark').click(()=>{
-   
+$('.sidebar .sidebar-icon').click(()=>{
     $('.sidebar').css('width','0')
     $('.dark-bg').css('display','none')
 })
@@ -20,10 +20,7 @@ $('#icon_img').click(()=>{
     $('.dark-bg').css('display','block')
 })
 
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "1";
-    document.body.style.backgroundColor = "white";
-  }
+
 
   //testimonal
   var testim = document.getElementById("testim"),
@@ -81,3 +78,13 @@ window.onload = function () {
     playSlide(currentSlide);
 
 }
+
+// // sidebar icon
+// $(".sidebar-icon i").mouseenter(()=>{
+//  $(".sidebar-icon i").removeClass('fa-solid fa-xmark')
+//  $(".sidebar-icon i").addClass('fa-solid fa-arrow-left')
+// })
+// $(".sidebar-icon i").mouseleave(()=>{
+//     $(".sidebar-icon i").addClass('fa fa-solid fa-xmark')
+//     $(".sidebar-icon i").removeClass('fa-solid fa-arrow-left')
+//    })
