@@ -1,17 +1,36 @@
 
 
+let id=null
 $('.sidenav_button img').click(()=>{
   $('.sidebar').css('width','400px')
    $('.dark-bg').css('display','block')
+    mymove();
 })
 
+function mymove(){
+    console.log('started');
+    let elem=$('.sidebar .sidebar-icon');
+//     elem.animate({
+//        transform:"rotate(20deg)"
+// },5000);
+elem.removeClass("removeanimate");
+elem.addClass("animate")
+
+}
+function notmove(){
+    let elem=$('.sidebar .sidebar-icon');
+    elem.removeClass("animate");
+    elem.addClass("removeanimate")
+}
 $('.sidebar .sidebar-icon').click(()=>{
     $('.sidebar').css('width','0')
     $('.dark-bg').css('display','none')
+    notmove();
 })
 $('.dark-bg').click(()=>{
     $('.sidebar').css('width','0')
     $('.dark-bg').css('display','none')
+    notmove();
 })
 
 // FOR SMALLER SCREEN
@@ -79,12 +98,3 @@ window.onload = function () {
 
 }
 
-// // sidebar icon
-// $(".sidebar-icon i").mouseenter(()=>{
-//  $(".sidebar-icon i").removeClass('fa-solid fa-xmark')
-//  $(".sidebar-icon i").addClass('fa-solid fa-arrow-left')
-// })
-// $(".sidebar-icon i").mouseleave(()=>{
-//     $(".sidebar-icon i").addClass('fa fa-solid fa-xmark')
-//     $(".sidebar-icon i").removeClass('fa-solid fa-arrow-left')
-//    })
