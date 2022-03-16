@@ -37,6 +37,7 @@ $('.dark-bg').click(()=>{
 $('#icon_img').click(()=>{
     $('.sidebar').css('width','100%')
     $('.dark-bg').css('display','block')
+  mymove();
 })
 
 
